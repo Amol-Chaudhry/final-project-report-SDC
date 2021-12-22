@@ -13,6 +13,7 @@ Our objective for this project is to design and build an autonomous driving car 
 - It can also detect the presence of obstacles , such as other cars, in its path. 
 - It can also check for the presence of stop signs, traffic lights and act accordingly.
 - It can also perform complex maneuvers such as a U-turn.
+- The car can also increase and decrease its speed for smooth start and stop operation.
 
 
 
