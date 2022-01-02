@@ -295,7 +295,6 @@ int main(int argc,char **argv)
     
     float t = elapsed_seconds.count();
     int FPS = 1/t;
-    //cout<<"FPS = "<<FPS<<endl;
     
     }
 
