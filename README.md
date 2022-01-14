@@ -15,7 +15,9 @@ Our objective for this project is to design and build an autonomous driving car 
 - It can also perform complex maneuvers such as a U-turn.
 - The car can also increase and decrease its speed for smooth start and stop operation.
 
+##Image
 
+![alt text](https://github.com/Amol-Chaudhry/self-driving-car/blob/main/SelfDrivingCarModel.jpeg?raw=true)
 
 ## Report
 
