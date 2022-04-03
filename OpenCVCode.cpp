@@ -81,8 +81,8 @@ void GetHistrogram()
         divide(255, interestedRegionLaneEnd, interestedRegionLaneEnd);
         histLaneEnd.push_back((int)(sum(interestedRegionLaneEnd)[0]));
     }
-       endOfLane = sum(histLaneEnd)[0];
-       cout<<"End of Lane= "<<endOfLane<<endl;
+    endOfLane = sum(histLaneEnd)[0];
+    cout<<"End of Lane= "<<endOfLane<<endl;
 }
 
  void SetupCamera (int argc, char **argv, RaspiCam_Cv &liveCamera)
@@ -132,7 +132,7 @@ int main(int argc,char **argv)
     if (!liveCamera.open()) {
         cout<<"Cam connection failed"<<endl;
     }
-	cout<<"Cam Id = "<<liveCamera.getId()<<endl;
+    cout<<"Cam Id = "<<liveCamera.getId()<<endl;
      
     while(true) {
         auto startTime = std::chrono::system_clock::now();
